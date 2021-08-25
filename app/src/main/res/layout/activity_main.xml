@@ -50,18 +50,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
+        android:backgroundTint="@color/purple_700"
         android:ems="10"
         android:fontFamily="@font/muli_bold"
         android:hint="add new food..."
+        android:imeOptions="actionDone"
         android:inputType="textPersonName"
+        android:textCursorDrawable="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/selectFoodText"
-        android:backgroundTint="@color/purple_700"
-        android:textCursorDrawable="@null"
-
-        />
+        app:layout_constraintTop_toBottomOf="@+id/selectFoodText" />
 
     <Button
         android:id="@+id/addFoodBtn"
